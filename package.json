@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "rm -r lib",
     "build": "NODE_ENV=production webpack --progress",
+    "watch": "webpack --progress --watch",
     "test": "eslint src"
   },
   "keywords": [],
