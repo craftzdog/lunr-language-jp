@@ -1,12 +1,14 @@
 lunr-language-jp
 ==================
 
-A Japanese tokenizer and stopwords for Lunr JavaScript library
+A Japanese tokenizer and stopwords for Lunr JavaScript library, utilizing:
+
+ * [TinySegmenter - Super compact Japanese tokenizer](http://chasen.org/~taku/software/TinySegmenter/) by Taku Kudo <taku@chasen.org>
 
 ## Installation
 
 ```sh
-npm install --save lunr-language-jp
+npm install --save lunr-language-jp lunr-languages
 ```
 
 ## Usage
