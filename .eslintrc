@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "extends": [ "standard" ],
+  "plugins": [],
+  "parser": "babel-eslint",
+  "globals": {
+    "describe": true,
+    "it": true
+  }
+}
